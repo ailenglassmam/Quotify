@@ -1,0 +1,8 @@
+.content-wrapper {
+  position: relative;
+  transition: transform 0.5s ease-in-out;
+}
+
+.content-wrapper-shifted {
+  transform: translateY(-100%);
+}

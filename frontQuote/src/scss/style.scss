@@ -1,0 +1,45 @@
+$violet: #7D18F7;
+$black: #000000;
+$white: #FFFFFF;
+$grey: #F3F3F3;
+$deepGrey: #DFDEDE;
+
+$height1: 306px;
+$height2: 119px;
+
+$theme-colors: (
+  "primary": $violet,
+  "primary-btn": $violet,
+  "special-btn": $white,
+  "secondary-btn": $black,
+  "background": $grey,
+  "quote-background": $deepGrey,
+  "secondary-text": $deepGrey,
+);
+
+$theme-colors-text: (
+  "black": $black,
+  "white": $white,
+  "hover-white": $grey,
+  "title": $black,
+  "subtitle": $violet,
+  "link": $violet,
+);
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 2,
+  7: $spacer * 2.5,
+  8: $spacer * 3,
+  9: $spacer * 3.5,
+  10: $spacer * 4,
+  11: $spacer * 10,
+);
+
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
